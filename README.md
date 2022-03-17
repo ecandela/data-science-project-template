@@ -12,7 +12,7 @@ After cloning the repository, the following bat files must be executed:
 
 **3. install.bat :** This bat file launches Jupyter Notebook in the browser.
 
-**4. Install_geopandas.bat :** This step is **optional**. If you need geopandas dependencies then you should must this step.
+**4. Install_geopandas.bat :** This step is **optional**. If you need geopandas dependencies then you must run the Install_geopandas.bat file.
 
 ####Directory structure
 
