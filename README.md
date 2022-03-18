@@ -33,11 +33,11 @@ The final directory structure should look like this, with the new directory env.
 + env
 + src
 
-#### Complementary files
+#### Complementary directories/files
 
-Resources | Description
+Name | Description
 ------------- | -------------
 img_readme  | readme images
-whl  | Content Cell 
+whl  | wheel files for geopandas
 requirements.txt  | Dependency list
 requirements_geopandas.txt  | geopandas dependency list
