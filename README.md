@@ -41,3 +41,20 @@ img_readme  | readme images
 whl  | wheel files for geopandas
 requirements.txt  | Dependency list
 requirements_geopandas.txt  | geopandas dependency list
+
+
+#### src directory
+all scripts, notebooks and datasets should be placed here.
++ src
+    + Prj_BD
+    + Prj_Core
+    + Prj_Project_1
+    + Prj_Project_2
+
+
+Name | Description
+------------- | -------------
+Prj_BD  | directory for datasets
+Prj_Core  | directory for common scripts
+Prj_Project_1 | advanced analytics project 1
+Prj_Project_2 | advanced analytics project 2
