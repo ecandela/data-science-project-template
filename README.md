@@ -58,3 +58,12 @@ Prj_BD  | directory for datasets
 Prj_Core  | directory for common scripts
 Prj_Project_1 | advanced analytics project 1
 Prj_Project_2 | advanced analytics project 2
+
+
++ src
+    + Prj_BD
+    + Prj_Core
+    + Prj_Project_1
+        + _01_Exploratory_Data_Analysis
+        + _02_Data-Preprocessing
+        + _03_Model
