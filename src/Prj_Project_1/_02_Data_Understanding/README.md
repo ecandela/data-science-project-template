@@ -12,13 +12,13 @@ The data understanding phase of CRISP-DM involves taking a closer look at the da
 6) Have you considered how missing values are handled in each of your data sources?
 
 ### - Describing Data ###
-There are many ways to describe data, but most descriptions focus on the quantity and quality of the data--how much data is available and the condition of the data. Listed below are some key characteristics to address when describing data:
+> There are many ways to describe data, but most descriptions focus on the quantity and quality of the data--how much data is available and the condition of the data. Listed below are some key characteristics to address when describing data:
 1) Amount of data. For most modeling techniques, there are trade-offs associated with data size. Large data sets can produce more accurate models, but they can also lengthen the processing time. Consider whether using a subset of data is a possibility. When taking notes for the final report, be sure to include size statistics for all data sets, and remember to consider both the number of records as well as fields (attributes) when describing data.
 2) Value types. Data can take a variety of formats, such as numeric, categorical (string), or Boolean (true/false). Paying attention to value type can head off problems during later modeling.
 3) Coding schemes. Frequently, values in the database are representations of characteristics such as gender or product type. For example, one data set may use M and F to represent male and female, while another may use the numeric values 1 and 2. Note any conflicting schemes in the data report.
 
 ### - Verifying Data Quality ###
-Data are rarely perfect. In fact, most data contain coding errors, missing values, or other types of inconsistencies that make analysis tricky at times. One way to avoid potential pitfalls is to conduct a thorough quality analysis of available data before modeling. You can look for the following types of problems:
+> Data are rarely perfect. In fact, most data contain coding errors, missing values, or other types of inconsistencies that make analysis tricky at times. One way to avoid potential pitfalls is to conduct a thorough quality analysis of available data before modeling. You can look for the following types of problems:
 1) Missing data include values that are blank or coded as a non-response.
 2) Data errors are usually typographical errors made in entering the data.
 3) Measurement errors include data that are entered correctly but are based on an incorrect measurement scheme.
