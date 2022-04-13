@@ -64,6 +64,22 @@ Prj_Project_2 | advanced analytics project 2
     + Prj_BD
     + Prj_Core
     + Prj_Project_1
-        + _01_Exploratory_Data_Analysis
-        + _02_Data-Preprocessing
-        + _03_Model
+        + _01_Business_Understanding
+        + _02_Data_Understanding
+        + _03_Data_Preparation
+        + _04_Modeling
+        + _05_Evaluation
+        + _06_Deployment
+
+
+Name | Description
+------------- | -------------
+_01_Business_Understanding  | Files that explain what your organization expects to gain from this project.
+_02_Data_Understanding  | Files for taking a closer look at the data available for this project.
+_03_Data_Preparation | Files that prepare the data for modeling
+_04_Modeling | Files that estimate the model
+_05_Evaluation | Files that evaluate the results using the business success criteria established at the beginning of the project.
+_06_Deployment | Files to deploy the project in the organization
+
+
+
