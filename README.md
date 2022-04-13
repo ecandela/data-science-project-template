@@ -59,11 +59,16 @@ Prj_Core  | directory for common scripts
 Prj_Project_1 | advanced analytics project 1
 Prj_Project_2 | advanced analytics project 2
 
+#### src/Prj_Project_1 directory
 
-+ src
+It is important to use CRISP-DM as a methodology and process model to guide data mining projects. For that reason, there will be a directory for each of the six phases of CRISP-DM.
+
+![Image text](https://github.com/ecandela/data-science-project-template/blob/main/config/img_readme/crisp_process.jpg)
+
++ **src**
     + Prj_BD
     + Prj_Core
-    + Prj_Project_1
+    + **Prj_Project_1**
         + _01_Business_Understanding
         + _02_Data_Understanding
         + _03_Data_Preparation
