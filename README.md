@@ -3,7 +3,7 @@ Project directory structure and scripts
 
 #### Getting Started
 
-After cloning the repository, the following bat files must be executed:
+After cloning the repository, the following bat files must be executed in **config directory**:
 
 **1. create_env.bat :**  This bat file creates a virtual environment for the specific project into the ..\env directory
 
