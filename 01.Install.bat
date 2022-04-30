@@ -1,3 +1,3 @@
-CALL ..\env\Scripts\activate.bat
+CALL env\Scripts\activate.bat
 pip install -r requirements.txt  
 PAUSE

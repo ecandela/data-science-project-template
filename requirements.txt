@@ -1,3 +1,2 @@
 pandas==1.2.2
 numpy==1.19.2
-prj-core==0.0.47
