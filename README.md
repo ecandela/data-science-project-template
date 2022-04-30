@@ -3,17 +3,17 @@ Project directory structure and scripts
 
 #### Getting Started
 
-After cloning the repository, the following bat files must be executed in **config directory**:
+After cloning the repository, the following bat files must be executed:
 
-**1. create_env.bat :**  This bat file creates a virtual environment for the specific project into the ..\env directory
+**00.create_env.bat :**  This bat file creates a virtual environment for the specific project into the ..\env directory
 
-**2. Install.bat :**  This bat file installs all the packages listed in requirements.txt into the env directory that was created in the step 1. 
+**01.Install.bat :**  This bat file installs all the packages listed in requirements.txt into the env directory that was created in the step 1. 
 
-**3. Install_jupyter_spyder.bat :**  This bat file installs jupyter and spyder kernels (Not IDE). 
+**02.Install_jupyter_spyder.bat :**  This bat file installs jupyter and spyder kernels (Not IDE). 
 
-**4. start_jupyter.bat :** This bat file launches Jupyter Notebook in the browser.
+**03.start_jupyter.bat :** This bat file launches Jupyter Notebook in the browser.
 
-**5. Install_geopandas.bat :** This step is **optional**. If you need geopandas dependencies then you must run the Install_geopandas.bat file.
+**04.Install_geopandas.bat :** This step is **optional**. If you need geopandas dependencies then you must run the Install_geopandas.bat file.
 
 
 #### Directory structure
@@ -23,14 +23,16 @@ The final directory structure should look like this, with the new directory env.
 + config
     + img_readme
     + whl
-    + create_env.bat
-    + Install.bat
-    + Install_jupyter_spyder.bat
-    + Install_geopandas.bat
-    + requirements.txt
-    + start_jupyter.bat
 + env
 + src
+.gitignore
+00.create_env.bat
+01.Install.bat
+02.Install_jupyter_spyder.bat
+03.start_jupyter.bat
+04.Install_geopandas.bat
+README.md
+requirements.txt
 
 #### Complementary directories/files
 
