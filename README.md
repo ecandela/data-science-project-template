@@ -25,14 +25,14 @@ The final directory structure should look like this, with the new directory env.
     + whl
 + env
 + src
-.gitignore
-00.create_env.bat
-01.Install.bat
-02.Install_jupyter_spyder.bat
-03.start_jupyter.bat
-04.Install_geopandas.bat
-README.md
-requirements.txt
++ .gitignore
++ 00.create_env.bat
++ 01.Install.bat
++ 02.Install_jupyter_spyder.bat
++ 03.start_jupyter.bat
++ 04.Install_geopandas.bat
++ README.md
++ requirements.txt
 
 #### Complementary directories/files
 
