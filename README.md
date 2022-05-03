@@ -67,15 +67,14 @@ It is important to use CRISP-DM as a methodology and process model to guide data
 ![Image text](https://github.com/ecandela/data-science-project-template/blob/main/config/img_readme/crisp_process.jpg)
 
 + **src**
-    + Prj_BD
-    + Prj_Core
-    + **Prj_Project_1**
-        + _01_Business_Understanding
-        + _02_Data_Understanding
-        + _03_Data_Preparation
-        + _04_Modeling
-        + _05_Evaluation
-        + _06_Deployment
+    + _BD_
+    + _common_
+    + _01_Business_Understanding
+    + _02_Data_Understanding
+    + _03_Data_Preparation
+    + _04_Modeling
+    + _05_Evaluation
+    + _06_Deployment
 
 
 Name | Description
