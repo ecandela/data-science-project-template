@@ -91,4 +91,4 @@ Project Organization
 2. Ejecutar el script [paso2.py](/codigo/paso2.py) para realizar modificar los datos.
 
 
-[Ver documentacion detallada](/Readme2.md)
+[Ver documentacion detallada](docs/Readme2.md)
