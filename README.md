@@ -58,15 +58,26 @@ Project Organization
 <p>1. Descargar e instalar Anaconda del siguiente enlace: <a target="_blank" href="https://www.anaconda.com">https://www.anaconda.com/</a>.</p>
 <p>2. Como IDE se recomienda usar el Visual Studio Code el cual se puede descargar del siguiente enlace: <a target="_blank" href="https://code.visualstudio.com/Download">https://code.visualstudio.com/Download/</a>.</p>
 
-<p>3. Clonar el proyecto desde GitHub y localizarlo en el folder de su preferencia.</p>
+<p>3. Clonar el proyecto desde el repositorio de GitHub y localizarlo en el folder de su preferencia.</p>
 
-<p>4. Una vez instalado ambos programas (Anaconda y Visual Studio Code), abrir el editor Visual Studio Code y en la pestaña File hacer click para abrir el folder donde hemos clonado el proyecto (paso 3.).</p>
+<p>4. Una vez instalado ambos programas (Anaconda y Visual Studio Code), abrir el editor Visual Studio Code y en la pestaña File hacer <i>click</i> para abrir el folder donde hemos clonado el proyecto (paso 3.).</p>
 
-<p>5. En el visual Studio Code abrimos una nueva terminal y ejecutamos el comando <b>conda env create --file=enviroment.yaml</b>.</p>
+ <img src="C:/Users/GNC/Desktop/OSOSEE/Proyecto/data-science-project-template/Images/OpenFolder.PNG"> 
 
-<p>6. Con el paso 5° hemos creado un entorno virtual con lo necesario para ejecutar los scripts ahora debe para ejecutar el entorno virtual debemos ejecutar el comando <b>conda activate envOsee</b>.</p>
+<p>5. En el visual Studio Code abrimos una nueva terminal y ejecutamos el comando <b>conda env create --file=enviroment.yml</b>.</p>
 
-<p>7. Una activate nuestro entorno virual en el terminal se mostrará lo siguiente: <b>(envOsee) C:\Users\GNC\Desktop\crearCokkie\project_template></b>.</p>
+<img src="C:/Users/GNC/Desktop/OSOSEE/Proyecto/data-science-project-template/Images/OpenTerminal.PNG"> 
+
+<img src="C:/Users/GNC/Desktop/OSOSEE/Proyecto/data-science-project-template/Images/createEnv.PNG"> 
+
+<p>6. Con el paso 5° hemos creado un entorno virtual con los paquetes necesarios para ejecutar los scripts, ahora debemos activar el entorno virtual para lo cual debemos ejecutar el comando <b>conda activate envOsee</b>.</p>
+
+<img src="C:/Users/GNC/Desktop/OSOSEE/Proyecto/data-science-project-template/Images/activateEnv.PNG"> 
+
+<p>7. Una vez activado nuestro entorno virtual en el terminal se mostrará lo siguiente: <b>(envOsee) C:\Users\GNC\Desktop\crearCokkie\project_template></b>. el nombre del entorno virtual "<b>envOsee</b>" se muestra al inicio como se muetsra en la figura.</p>
+
+<img src="C:/Users/GNC/Desktop/OSOSEE/Proyecto/data-science-project-template/Images/checkEnv.PNG"> 
+
 
 <p>8. Ya podemos ejecutar cada unos de los scripts.</p>
 
