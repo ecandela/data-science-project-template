@@ -1,77 +1,75 @@
-# data-science-project-template
-Project directory structure and scripts
+Template Osee
+==============================
 
-Template repository for new data science projects. It's designed to work along with CRISP-DM methodology. 
+template of how all the files will be organized
 
+Project Organization
+------------
 
-#### Getting Started
-
-This template is required when you want to start a repository with a data-science structure template
-
-After creating the repository, the following bat files must be executed:
-
-**00.create_env.bat :**  This bat file creates a virtual environment for the specific project into the **env** directory
-
-**01.Install.bat :**  This bat file installs all the packages listed in **requirements.txt** into the **env** directory that was created in the step 1. 
-
-**02.Install_jupyter_spyder.bat :**  This bat file installs jupyter (IDE) and spyder kernels (just dependencies). 
-
-**03.start_jupyter.bat :** This bat file launches Jupyter Notebook in the browser.
-
-**04.Install_geopandas.bat :** This step is **optional**. If you need geopandas dependencies then you must run the Install_geopandas.bat file.
-
-
-#### Directory structure
-
-The final directory structure should look like this, with the new directory **env**.
-
-+ config
-    + img_readme
-    + whl
-+ env
-+ src
-+ .gitignore
-+ 00.create_env.bat
-+ 01.Install.bat
-+ 02.Install_jupyter_spyder.bat
-+ 03.start_jupyter.bat
-+ 04.Install_geopandas.bat
-+ README.md
-+ requirements.txt
-
-#### Complementary directories/files
-
-Name | Description
-------------- | -------------
-img_readme  | readme images
-whl  | wheel files for geopandas
-
-
-#### src directory
-
-It is important to use CRISP-DM as a methodology and process model to guide data mining projects. For that reason, there will be a directory for each of the six phases of CRISP-DM.
-
-![Image text](https://github.com/ecandela/data-science-project-template/blob/main/config/img_readme/crisp_process.jpg)
-
-+ **src**
-    + _BD_
-    + _common_
-    + _01_Business_Understanding
-    + _02_Data_Understanding
-    + _03_Data_Preparation
-    + _04_Modeling
-    + _05_Evaluation
-    + _06_Deployment
+    ├── LICENSE
+    ├── Makefile           <- Makefile with commands like `make data` or `make train`
+    ├── README.md          <- The top-level README for developers using this project.
+    ├── data
+    │   ├── external       <- Data from third party sources.
+    │   ├── interim        <- Intermediate data that has been transformed.
+    │   ├── processed      <- The final, canonical data sets for modeling.
+    │   └── raw            <- The original, immutable data dump.
+    │
+    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    │
+    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    │
+    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
+    │                         the creator's initials, and a short `-` delimited description, e.g.
+    │                         `1.0-jqp-initial-data-exploration`.
+    │
+    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+    │
+    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+    │   └── figures        <- Generated graphics and figures to be used in reporting
+    │
+    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
+    │                         generated with `pip freeze > requirements.txt`
+    │
+    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
+    ├── src                <- Source code for use in this project.
+    │   ├── __init__.py    <- Makes src a Python module
+    │   │
+    │   ├── data           <- Scripts to download or generate data
+    │   │   └── make_dataset.py
+    │   │
+    │   ├── features       <- Scripts to turn raw data into features for modeling
+    │   │   └── build_features.py
+    │   │
+    │   ├── models         <- Scripts to train models and then use trained models to make
+    │   │   │                 predictions
+    │   │   ├── predict_model.py
+    │   │   └── train_model.py
+    │   │
+    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
+    │       └── visualize.py
+    │
+    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
 
-Name | Description
-------------- | -------------
-_01_Business_Understanding  | Files that explain what your organization expects to gain from this project.
-_02_Data_Understanding  | Files for taking a closer look at the data available for this project.
-_03_Data_Preparation | Files that prepare the data for modeling
-_04_Modeling | Files that estimate the model
-_05_Evaluation | Files that evaluate the results using the business success criteria established at the beginning of the project.
-_06_Deployment | Files to deploy the project in the organization
+--------
+<h1>data-science-project-template</h1>
+<h2>Configuracion del entorno</h2>
+<p>1. Descargar e instalar Anaconda del siguiente enlace: <a target="_blank" href="https://www.anaconda.com">https://www.anaconda.com/</a>.</p>
+<p>2. Como IDE se recomienda usar el Visual Studio Code el cual se puede descargar del siguiente enlace: <a target="_blank" href="https://code.visualstudio.com/Download">https://code.visualstudio.com/Download/</a>.</p>
+
+<p>3. Clonar el proyecto desde GitHub y localizarlo en el folder de su preferencia.</p>
+
+<p>4. Una vez instalado ambos programas (Anaconda y Visual Studio Code), abrir el editor Visual Studio Code y en la pestaña File hacer click para abrir el folder donde hemos clonado el proyecto (paso 3.).</p>
+
+<p>5. En el visual Studio Code abrimos una nueva terminal y ejecutamos el comando <b>conda env create --file=enviroment.yaml</b>.</p>
+
+<p>6. Con el paso 5° hemos creado un entorno virtual con lo necesario para ejecutar los scripts ahora debe para ejecutar el entorno virtual debemos ejecutar el comando <b>conda activate envOsee</b>.</p>
+
+<p>7. Una activate nuestro entorno virual en el terminal se mostrará lo siguiente: <b>(envOsee) C:\Users\GNC\Desktop\crearCokkie\project_template></b>.</p>
+
+<p>8. Ya podemos ejecutar cada unos de los scripts.</p>
 
 
 
+<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
