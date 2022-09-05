@@ -1,7 +1,5 @@
 Detalle de scripts
 ==============================
-
-
 template of how all the files will be organized
 
 Project Organization
