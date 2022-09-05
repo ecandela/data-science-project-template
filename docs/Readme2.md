@@ -1,5 +1,6 @@
-Template Osee
+Detalle de scripts
 ==============================
+
 
 template of how all the files will be organized
 
@@ -50,45 +51,6 @@ Project Organization
     │       └── visualize.py
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
-
 --------
 
-<h1>data-science-project-template</h1>
-<h2>Configuracion del entorno</h2>
-<p>1. Descargar e instalar Anaconda del siguiente enlace: <a target="_blank" href="https://www.anaconda.com">https://www.anaconda.com/</a>.</p>
-<p>2. Como IDE se recomienda usar el Visual Studio Code el cual se puede descargar del siguiente enlace: <a target="_blank" href="https://code.visualstudio.com/Download">https://code.visualstudio.com/Download/</a>.</p>
-
-<p>3. Clonar el proyecto desde el repositorio de GitHub y localizarlo en el folder de su preferencia.</p>
-
-<p>4. Una vez instalado ambos programas (Anaconda y Visual Studio Code), abrir el editor Visual Studio Code y en la pestaña File hacer <i>click</i> para abrir el folder donde hemos clonado el proyecto (paso 3.).</p>
-
-![Abrir Folder](Images/OpenFolder.PNG)
-
-<p>5. En el visual Studio Code abrimos una nueva terminal y ejecutamos el comando <b>conda env create --file=enviroment.yml</b>.</p>
-
-![Abrir Terminal](Images/OpenTerminal.PNG)
-
-![Crear entorno virtual](Images/createEnv.PNG)
-
-
-<p>6. Con el paso 5° hemos creado un entorno virtual con los paquetes necesarios para ejecutar los scripts, ahora debemos activar el entorno virtual para lo cual debemos ejecutar el comando <b>conda activate enviromentOsee</b>.</p>
-
-![Activar entorno virtual](Images/activateEnv.PNG)
-
-
-<p>7. Una vez activado nuestro entorno virtual en el terminal se mostrará lo siguiente: <b>(enviromentOsee) C:\Users\GNC\Desktop\crearCokkie\project_template></b>. el nombre del entorno virtual "<b>enviromentOsee</b>" se muestra al inicio como se muetsra en la figura.</p>
-
-![Check](Images/checkEnv.PNG)
-
-<p>8. Ya podemos ejecutar cada unos de los scripts.</p>
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
-
-
-<h1>Pasos para la ejecucion de los scripts </h1>
-
-1. Ejecutar el script [probando.py](/codigo/probando.py)
-2. Ejecutar el script [paso2.py](/codigo/paso2.py) para realizar modificar los datos.
-
-
-[Ver documentacion detallada](/Readme2.md)
+[Volver a principal](/README.md)

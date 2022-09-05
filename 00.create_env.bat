@@ -1,2 +1,0 @@
-py -m venv env 
-
