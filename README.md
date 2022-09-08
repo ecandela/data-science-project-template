@@ -1,60 +1,55 @@
-Template Osee
+data-science-project-template
 ==============================
 
-template of how all the files will be organized
-
-Project Organization
+Organizacion del proyecto
 ------------
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
+    ├── README.md          <- README principal para los desarrolladores usando este proyecto.
     ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
+    │   ├── external       <- Datos de terceras fuentes.
+    │   ├── interim        <- Datos intermedios que ya han sido transformados.
+    │   ├── processed      <- Datos en forma final, listo para modelamiento.
+    │   └── raw            <- Datos originales, datos inmutable sin ninguna transformacion.
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    ├── docs               <- Documentacion del proyecto, ver detalles.
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    ├── models             <- Modelos entrenados y serializados, prediccion de los modelos y resumenes.
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── notebooks          <- Jupyter notebooks. donde se realizan las primeras pruebas antes de generar los scripts.
+    │                         convencion para nonmbrar son las iniciales del creador seguido de "-" y una corta descripcion. ejemplo:
+    │                         "1.0-jqp-initial-data-exploration".
     │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+    ├── references         <- Diccionarios de datos, manuales y todos material que explique los datos.
     │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
+    ├── reports            <- Analisis generado puede ser como HTML, PDF, LaTex, etc.
+    │   └── figures        <- Graficos y figuras generados usados en los reports.
     │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
+    ├── src                <- Codigo principal para el uso del proyecto.
+    │   ├── __init__.py    <- Convierte al folder file en un modulo de Python.
     │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
+    │   ├── _01_Business_Understanding          <- Exploracion inicial para entender el negocio
+    │   │   └── 01BusinessUnderstanding.py
     │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
+    │   ├── _02_Data_Understanding              <- Exploracion para entender los datos y sus disponibilidad.
+    │   │   └── 02DataUnderstanding.py
     │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
+    │   ├── _03_Data_Preparation                <- Seleccionar, ordenar, agrupar, remover, etc. los datos para alcanzar los objetivos.
+    │   │   └── 03DataPreparation.py
     │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+    │   ├── _04_Modeling                        <- Generacion del modelo y afinamiento de parametros.
+    │   │   └── 04Modeling.py
+    │   │
+    │   ├── _05_Evaluation                      <- Evaluacion de resultados usando los criterios establecidos al inicio del proyecto.
+    │   │   └── 05Evaluation.py
+    │   │
+    │   └── _06_Deployment                      <- Scripts para el despligue y pase a produccion.
+    │       └── 06Deployment.py
+    │   
+    └── enviroment.yml     <- Archivo con listado de los paquetes necesarios para reproducir el entorno de analisis.
 
 --------
+<h2>Configuracion del entorno del proyecto</h2>
 
-<h1>data-science-project-template</h1>
-<h2>Configuracion del entorno</h2>
 <p>1. Descargar e instalar Anaconda del siguiente enlace: <a target="_blank" href="https://www.anaconda.com">https://www.anaconda.com/</a>.</p>
 <p>2. Como IDE se recomienda usar el Visual Studio Code el cual se puede descargar del siguiente enlace: <a target="_blank" href="https://code.visualstudio.com/Download">https://code.visualstudio.com/Download/</a>.</p>
 
@@ -62,33 +57,39 @@ Project Organization
 
 <p>4. Una vez instalado ambos programas (Anaconda y Visual Studio Code), abrir el editor Visual Studio Code y en la pestaña File hacer <i>click</i> para abrir el folder donde hemos clonado el proyecto (paso 3.).</p>
 
-![Abrir Folder](Images/OpenFolder.PNG)
+![Abrir Folder](references/imagenes/OpenFolder.PNG)
 
 <p>5. En el visual Studio Code abrimos una nueva terminal y ejecutamos el comando <b>conda env create --file=enviroment.yml</b>.</p>
 
-![Abrir Terminal](Images/OpenTerminal.PNG)
+![Abrir Terminal](references/imagenes/OpenTerminal.PNG)
 
-![Crear entorno virtual](Images/createEnv.PNG)
+![Crear entorno virtual](references/imagenes/createEnv.PNG)
 
 
 <p>6. Con el paso 5° hemos creado un entorno virtual con los paquetes necesarios para ejecutar los scripts, ahora debemos activar el entorno virtual para lo cual debemos ejecutar el comando <b>conda activate enviromentOsee</b>.</p>
 
-![Activar entorno virtual](Images/activateEnv.PNG)
+![Activar entorno virtual](references/imagenes/activateEnv.PNG)
 
 
 <p>7. Una vez activado nuestro entorno virtual en el terminal se mostrará lo siguiente: <b>(enviromentOsee) C:\Users\GNC\Desktop\crearCokkie\project_template></b>. el nombre del entorno virtual "<b>enviromentOsee</b>" se muestra al inicio como se muetsra en la figura.</p>
 
-![Check](Images/checkEnv.PNG)
+![Check](references/imagenes/checkEnv.PNG)
 
 <p>8. Ya podemos ejecutar cada unos de los scripts.</p>
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
-
-
 <h1>Pasos para la ejecucion de los scripts </h1>
 
-1. Ejecutar el script [probando.py](/codigo/probando.py)
-2. Ejecutar el script [paso2.py](/codigo/paso2.py) para realizar modificar los datos.
+1. Ejecutar el script [03DataPreparation.py](src/_03_Data_Preparation/03DataPreparation.py)
+2. Ejecutar el script [04Modeling.py](src/_04_Modeling/04Modeling.py)
 
 
-[Ver documentacion detallada](docs/Readme2.md)
+<h1>Resumen de documentacion. </h1>
+
+<p>El proyecto MODELAMIENTO DE PORCENTAJE ABANDONO se evaluo en 6 fases.</p>
+
+[Ver documentacion fase 01](docs/README01.md) \
+[Ver documentacion fase 02](docs/README02.md) \
+[Ver documentacion fase 03](docs/README03.md) \
+[Ver documentacion fase 04](docs/README04.md) \
+[Ver documentacion fase 05](docs/README05.md) \
+[Ver documentacion fase 06](docs/README06.md)
