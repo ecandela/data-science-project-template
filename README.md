@@ -38,7 +38,7 @@ data-science-project-template
     │
     ├── 00.create_env.bat           <- Ejecutable para crear el entorno virtual con los parámetros del archivo "enviroment.yml".
     │
-    └── 01.update_enviroment.bat      <- Ejecutable para actualizar el archivo "enviroment.yml" antes de ser compartido.
+    └── 01.update_enviroment.bat    <- Ejecutable para actualizar el archivo "enviroment.yml" antes de ser compartido.
 
 --------
 <h2>2. Configuración del entorno del proyecto</h2>
