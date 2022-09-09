@@ -38,7 +38,7 @@ data-science-project-template
     │
     ├── 00.create_env.bat           <- Ejecutable para crear el entorno virtual con los parámetros del archivo "enviroment.yml".
     │
-    └── 01.update_packages.bat      <- Ejecutable para actualizar el archivo "enviroment.yml" antes de ser compartido.
+    └── 01.update_enviroment.bat      <- Ejecutable para actualizar el archivo "enviroment.yml" antes de ser compartido.
 
 --------
 <h2>2. Configuración del entorno del proyecto</h2>
@@ -78,7 +78,7 @@ data-science-project-template
 
 <h2>4. Transferir proyecto</h2>
 
-<p>1. Para compartir el proyecto con un colaborador debemos primero ejecutar el archivo <b>01.update_packages.bat</b>, esto actualizara el archivo <b>enviroment.yml</b> con las ultimas versionas instaladas de cada libreria dentro del entorno virtual.</p>
+<p>1. Para compartir el proyecto con un colaborador debemos primero ejecutar el archivo <b>01.update_enviroment.bat</b>, esto actualizará el archivo <b>enviroment.yml</b> con las ultimas versionas instaladas de cada libreria dentro del entorno virtual.</p>
 
 <h2>5. Rutas para navegar por los scripts </h2>
 
