@@ -22,17 +22,17 @@ data-science-project-template
     ├── src                <- Código principal para el uso del proyecto.
     │   ├── __init__.py    <- Convierte al folder en un modulo de Python.
     │   │
-    │   ├── _01_Business_Understanding          <- Exploración inicial para entender el negocio.
+    │   ├── _01_Business_Understanding      <- Exploración inicial para entender el negocio.
     │   │
-    │   ├── _02_Data_Understanding              <- Exploración para entender los datos y sus disponibilidad.
+    │   ├── _02_Data_Understanding          <- Exploración para entender los datos y sus disponibilidad.
     │   │
-    │   ├── _03_Data_Preparation                <- Seleccionar, ordenar, agrupar, remover, etc. los datos para alcanzar los objetivos.
+    │   ├── _03_Data_Preparation            <- Seleccionar, ordenar, agrupar, remover, etc. los datos para alcanzar los objetivos.
     │   │
-    │   ├── _04_Modeling                        <- Scripts para generación del modelo y afinamiento de parámetros.
+    │   ├── _04_Modeling                    <- Scripts para generación del modelo y afinamiento de parámetros.
     │   │
-    │   ├── _05_Evaluation                      <- Scripts para evaluación de resultados establecidos al inicio del proyecto.
+    │   ├── _05_Evaluation                  <- Scripts para evaluación de resultados establecidos al inicio del proyecto.
     │   │
-    │   └── _06_Deployment                      <- Scripts para el despliegue y pase a producción.
+    │   └── _06_Deployment                  <- Scripts para el despliegue y pase a producción.
     │   
     ├── enviroment.yml              <- Archivo con listado de los paquetes necesarios para reproducir el entorno de análisis.
     │
