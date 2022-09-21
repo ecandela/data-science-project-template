@@ -1,77 +1,102 @@
-# data-science-project-template
-Project directory structure and scripts
+data-science-project-template
+==============================
 
-Template repository for new data science projects. It's designed to work along with CRISP-DM methodology. 
+ <h2>1. Organización del proyecto </h2>
 
+    ├── README.md          <- README principal para los desarrolladores usando este proyecto.
+    ├── data
+    │   ├── external       <- Datos de terceras fuentes.
+    │   ├── interim        <- Datos intermedios que ya han sido transformados.
+    │   ├── processed      <- Datos en forma final, listo para modelamiento.
+    │   └── raw            <- Datos originales, datos inmutable sin ninguna transformación.
+    │
+    ├── docs               <- Documentación del proyecto, ver detalles.
+    │
+    ├── models             <- Modelos entrenados y serializados, predicción de los modelos y resúmenes.
+    │
+    ├── references         <- Diccionarios de datos, manuales y todos material que explique los datos.
+    │
+    ├── reports            <- Análisis generado puede ser como HTML, PDF, LaTex, etc.
+    │   └── figures        <- Gráficos y figuras generados usados en los reports.
+    │
+    ├── src                <- Código principal para el uso del proyecto.
+    │   ├── __init__.py    <- Convierte al folder en un modulo de Python.
+    │   │
+    │   ├── _01_Business_Understanding      <- Exploración inicial para entender el negocio.
+    │   │
+    │   ├── _02_Data_Understanding          <- Exploración para entender los datos y sus disponibilidad.
+    │   │
+    │   ├── _03_Data_Preparation            <- Seleccionar, ordenar, agrupar, remover, etc. los datos para alcanzar los objetivos.
+    │   │
+    │   ├── _04_Modeling                    <- Scripts para generación del modelo y afinamiento de parámetros.
+    │   │
+    │   ├── _05_Evaluation                  <- Scripts para evaluación de resultados establecidos al inicio del proyecto.
+    │   │
+    │   └── _06_Deployment                  <- Scripts para el despliegue y pase a producción.
+    │   
+    ├── enviroment.yml              <- Archivo con listado de los paquetes necesarios para reproducir el entorno de análisis.
+    │
+    ├── 00.create_env.bat           <- Ejecutable para crear el entorno virtual con los parámetros del archivo "enviroment.yml".
+    │
+    └── 01.update_enviroment.bat    <- Ejecutable para actualizar el archivo "enviroment.yml" antes de ser compartido.
 
-#### Getting Started
+--------
+<h2>2. Configuración del entorno del proyecto</h2>
 
-This template is required when you want to start a repository with a data-science structure template
+<p>1. Descargar e instalar Anaconda del siguiente enlace: <a target="_blank" href="https://www.anaconda.com">https://www.anaconda.com/</a>.</p>
+<p>2. Como IDE se recomienda usar el Visual Studio Code el cual se puede descargar del siguiente enlace: <a target="_blank" href="https://code.visualstudio.com/Download">https://code.visualstudio.com/Download/</a>.</p>
 
-After creating the repository, the following bat files must be executed:
+<p>3. Clonar el proyecto desde el repositorio de GitHub y localizarlo en el folder de su preferencia.</p>
 
-**00.create_env.bat :**  This bat file creates a virtual environment for the specific project into the **env** directory
+<p>4. Ejecutar el archivo <b>00.create_env.bat</b> para crear entorno virtual del proyecto. en la pantalla se mostrará una imagen que indica que se está creando el entorno.</p>
 
-**01.Install.bat :**  This bat file installs all the packages listed in **requirements.txt** into the **env** directory that was created in the step 1. 
+![Creando env](references/imagenes/creando2.PNG)
 
-**02.Install_jupyter_spyder.bat :**  This bat file installs jupyter (IDE) and spyder kernels (just dependencies). 
+<p>5. Una vez instalado ambos programas (Anaconda y Visual Studio Code), abrir el editor Visual Studio Code y en la pestaña File hacer <i>click</i> para abrir el folder donde hemos clonado el proyecto (paso 3.).</p>
 
-**03.start_jupyter.bat :** This bat file launches Jupyter Notebook in the browser.
+![Abrir Folder](references/imagenes/OpenFolder.PNG)
 
-**04.Install_geopandas.bat :** This step is **optional**. If you need geopandas dependencies then you must run the Install_geopandas.bat file.
+<p>6. En el visual Studio Code abrimos una nueva terminal y ejecutamos el comando <b>conda activate venvOsee</b> para activar nuestro entorno virtual.</p>
 
+![Abrir Terminal](references/imagenes/OpenTerminal.PNG)
 
-#### Directory structure
+![Activar entorno virtual](references/imagenes/activateEnv.PNG)
 
-The final directory structure should look like this, with the new directory **env**.
+<p>7. Una vez activado nuestro entorno virtual en el terminal se mostrará lo siguiente: <b>(venvOsee) C:\Users\GNC\Desktop\OSOSEE\Proyecto\data-science-project-template></b>. el nombre del entorno virtual "<b>venvOsee</b>" se muestra al inicio como se muetsra en la figura.</p>
 
-+ config
-    + img_readme
-    + whl
-+ env
-+ src
-+ .gitignore
-+ 00.create_env.bat
-+ 01.Install.bat
-+ 02.Install_jupyter_spyder.bat
-+ 03.start_jupyter.bat
-+ 04.Install_geopandas.bat
-+ README.md
-+ requirements.txt
+![Check](references/imagenes/checkEnv.PNG)
 
-#### Complementary directories/files
+<p>8. Ya podemos ejecutar cada unos de los scripts.</p>
 
-Name | Description
-------------- | -------------
-img_readme  | readme images
-whl  | wheel files for geopandas
+<h2>3. Instalacion/Actualizacion de nuevos paquetes</h2>
 
+<p>1. Para instalar o actualizar nuevos paquetes en nuestro proyecto debemos asegurarnos primero localizarnos en nuestro entorno virtual(paso 6. de la seccion 2)</p>
 
-#### src directory
+<p>2. Ejecutar el comando <b>conda install -c conda-forge some_package</b> para instalar una nueva libreria, <b>some_package</b> debemos reemplazar por el nombre de la libreria que deseamos instalar.</p>
 
-It is important to use CRISP-DM as a methodology and process model to guide data mining projects. For that reason, there will be a directory for each of the six phases of CRISP-DM.
+<p>3. Ejecutar el comando <b>conda install some_package==1.2.3 </b> para actualizar las librerias existentes, debemos especificar la version de la nueva libreria, <b>some_package</b> debemos reemplazar por el nombre de la libreria que deseamos instalar.</p>
 
-![Image text](https://github.com/ecandela/data-science-project-template/blob/main/config/img_readme/crisp_process.jpg)
+<h2>4. Transferir proyecto</h2>
 
-+ **src**
-    + _BD_
-    + _common_
-    + _01_Business_Understanding
-    + _02_Data_Understanding
-    + _03_Data_Preparation
-    + _04_Modeling
-    + _05_Evaluation
-    + _06_Deployment
+<p>1. Para compartir el proyecto con un colaborador debemos primero ejecutar el archivo <b>01.update_enviroment.bat</b>, esto actualizará el archivo <b>enviroment.yml</b> con las ultimas versionas instaladas de cada libreria dentro del entorno virtual.</p>
 
+<h2>5. Rutas para navegar por los scripts </h2>
 
-Name | Description
-------------- | -------------
-_01_Business_Understanding  | Files that explain what your organization expects to gain from this project.
-_02_Data_Understanding  | Files for taking a closer look at the data available for this project.
-_03_Data_Preparation | Files that prepare the data for modeling
-_04_Modeling | Files that estimate the model
-_05_Evaluation | Files that evaluate the results using the business success criteria established at the beginning of the project.
-_06_Deployment | Files to deploy the project in the organization
+<p>En esta sección se establecen las rutas para navegar por los scripts.</p>
 
+1. Ir al script [03DataPreparation.py](src/_03_Data_Preparation/03DataPreparation.py)
 
+2. Ir al script  [04Modeling.py](src/_04_Modeling/04Modeling.py)
 
+<h2>6. Resumen de documentacion. </h2>
+
+<p>En esta sección hace una breve descripción del proyecto y se establecen los enlaces para navegar por los documentos necesarios. Ejemplo:</p>
+
+<p>El proyecto MODELAMIENTO DE PORCENTAJE ABANDONO se evaluo en 6 fases...</p>
+
+[Ver documentacion fase 01](docs/README01.md) \
+[Ver documentacion fase 02](docs/README02.md) \
+[Ver documentacion fase 03](docs/README03.md) \
+[Ver documentacion fase 04](docs/README04.md) \
+[Ver documentacion fase 05](docs/README05.md) \
+[Ver documentacion fase 06](docs/README06.md)

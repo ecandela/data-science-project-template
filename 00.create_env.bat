@@ -1,2 +1,2 @@
-py -m venv env 
+conda env create --file=enviroment.yml 
 
