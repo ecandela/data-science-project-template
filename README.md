@@ -44,6 +44,11 @@ data-science-project-template
 <h2>2. Configuración del entorno del proyecto</h2>
 
 <p>1. Descargar e instalar Anaconda del siguiente enlace: <a target="_blank" href="https://www.anaconda.com">https://www.anaconda.com/</a>.</p>
+
+<p><b>Recomendación:</b> durante la instalación poner atención al siguiente cuadro de diálogo en la cual debe seleccionar ambos recuadros</p>
+
+![Creando env](references/imagenes/InstallConda.PNG)
+
 <p>2. Como IDE se recomienda usar el Visual Studio Code el cual se puede descargar del siguiente enlace: <a target="_blank" href="https://code.visualstudio.com/Download">https://code.visualstudio.com/Download/</a>.</p>
 
 <p>3. Clonar el proyecto desde el repositorio de GitHub y localizarlo en el folder de su preferencia.</p>
@@ -62,11 +67,20 @@ data-science-project-template
 
 ![Activar entorno virtual](references/imagenes/activateEnv.PNG)
 
-<p>7. Una vez activado nuestro entorno virtual en el terminal se mostrará lo siguiente: <b>(venvOsee) C:\Users\GNC\Desktop\OSOSEE\Proyecto\data-science-project-template></b>. el nombre del entorno virtual "<b>venvOsee</b>" se muestra al inicio como se muetsra en la figura.</p>
+<p>7. Una vez activado nuestro entorno virtual en el terminal se mostrará lo siguiente: <b>(venvOsee) C:\Users\GNC\Desktop\OSOSEE\Proyecto\data-science-project-template></b>. el nombre del entorno virtual "<b>venvOsee</b>" se muestra al inicio como se muetsra en la figura lo cual nos asegura que ya estamos en nuestro entorno virtual y podemos ejecutar nuestros scripts con el compilador del entorno virtual</p>
 
 ![Check](references/imagenes/checkEnv.PNG)
 
 <p>8. Ya podemos ejecutar cada unos de los scripts.</p>
+
+
+<p><b>Nota 1:</b> Para ejecutar un script completo debemos dirigirnos a la carpeta donde se encuentra el scripts mediante los comandos "cd Nombre_de_carperta" y escribir en el terminal "python nombre_de_scripts", debemos incluir la extensión del archivo, en nuestro caso será ".py"</p>
+
+<p><b>Nota 2:</b> Para ejecutar una sección del script debemos seleccionar la parte del código que deseamos ejecutar, luego presionar <i>click</i> derecho y seleccionar la opcion <b>Run Selection/Line in Python Terminal</b> en las opciones que se mostrarán.</p>
+
+<p><b>Nota 3:</b> En la parte derecha inferior de nuestro IDE, debemos seleccionar nuestro entorno virtual, de este modo el IDE inicializará un terminal con nuestro entorno virtual por defecto.</p>
+
+![Check](references/imagenes/setdefault.PNG)
 
 <h2>3. Instalacion/Actualizacion de nuevos paquetes</h2>
 
