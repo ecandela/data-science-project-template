@@ -92,7 +92,7 @@ data-science-project-template
 
 ![Check](references/imagenes/VenvNameBachFile.png)
 
-<p>3. Finalmente se ejecuta el archivo 01.update_enviroment.bat, dándole doble Click y esperamos a que se actualice el entorno virtual.</p>
+<p>3. Finalmente se ejecuta el archivo <b>01.update_enviroment.bat</b>, dándole doble Click y esperamos a que se actualice el entorno virtual.</p>
 
 ![Check](references/imagenes/ConsoleOutput.png)
 
