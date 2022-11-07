@@ -1,2 +1,1 @@
-conda env create --file=enviroment.yml 
-
+conda env create --file=environment.yml

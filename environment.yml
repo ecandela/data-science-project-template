@@ -9,7 +9,7 @@ dependencies:
   - pip:
     - pip-tools
   - pandas=1.2.2
-  - jupyter
+  - ipykernel
   - gdal=3.2.2
   - fiona=1.8.19
   - geopandas==0.9.0
