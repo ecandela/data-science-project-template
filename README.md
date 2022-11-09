@@ -84,25 +84,46 @@ data-science-project-template
 
 <h2>3. Instalacion/Actualizacion de nuevos paquetes</h2>
 
-<p>1. Para instalar o actualizar nuevos paquetes en nuestro proyecto debemos asegurarnos primero localizarnos en nuestro entorno virtual(paso 6. de la seccion 2)</p>
+<p>1. Agregamos el nombre de la librería con su versión en el archivo <b>environment.yml</b> manteniendo su estructura en la sección <b>dependencies</b>, según como se muestra a continuación.</p>
 
-<p>2. Ejecutar el comando <b>conda install -c conda-forge some_package</b> para instalar una nueva libreria, <b>some_package</b> debemos reemplazar por el nombre de la libreria que deseamos instalar.</p>
+![Check](references/imagenes/YmlFileStructure.png)
 
-<p>3. Ejecutar el comando <b>conda install some_package==1.2.3 </b> para actualizar las librerias existentes, debemos especificar la version de la nueva libreria, <b>some_package</b> debemos reemplazar por el nombre de la libreria que deseamos instalar.</p>
+<p>2. Después de asegurarnos haber guardado el archivo con la nueva librería, debemos asegurarnos que en el archivo <b>01.update_enviroment.bat</b>, se encuentre el nombre del entorno virtual que se desea actualizar, según como se muestra en la imagen.</p>
+
+![Check](references/imagenes/VenvNameBachFile.png)
+
+<p>3. Finalmente se ejecuta el archivo <b>01.update_enviroment.bat</b>, dándole doble Click y esperamos a que se actualice el entorno virtual.</p>
+
+![Check](references/imagenes/ConsoleOutput.png)
 
 <h2>4. Transferir proyecto</h2>
 
-<p>1. Para compartir el proyecto con un colaborador debemos primero ejecutar el archivo <b>01.update_enviroment.bat</b>, esto actualizará el archivo <b>enviroment.yml</b> con las ultimas versionas instaladas de cada libreria dentro del entorno virtual.</p>
+<p>1. Para compartir el proyecto con un colaborador solo debemos compartir el archivo <b>enviroment.yml</b> con las ultimas versionas instaladas de cada libreria dentro del entorno virtual.</p>
 
 <h2>5. Rutas para navegar por los scripts </h2>
 
 <p>En esta sección se establecen las rutas para navegar por los scripts.</p>
 
-1. Ir al script [03DataPreparation.py](src/_03_Data_Preparation/03DataPreparation.py)
+1. Ir al script [03DataPreparation.py](src/_03_Data_Preparation/DataPreparation.py)
 
-2. Ir al script  [04Modeling.py](src/_04_Modeling/04Modeling.py)
+2. Ir al script  [04Modeling.py](src/_04_Modeling/Modeling.py)
 
-<h2>6. Resumen de documentacion. </h2>
+
+<h2>6. Uso de la plantilla <b><a target="_blank" href="https://github.com/ecandela/data-science-project-template">data-science-project-template</a></b>.</h2>
+
+<p>1. Para el uso de esta plantilla en algún proyecto nuevo, primero nos dirigimos al botón verde <b>“Use this template”</b>.</p>
+
+![Check](references/imagenes/UseThisTemplateButton.png)
+
+<p>2. Seguidamente llenamos los campos <b>Repository Name</b> y <b>Description</b> correspondientes al nombre del proyecto y su descripción. Puedes seleccionar si será público o privado y además si desea incluir todas las ramas del proyecto.</p>
+
+![Check](references/imagenes/FillingTemplate.png)
+
+<p>3. Finalmente presionar el botón <b>Create Repository From Template</b> para crear un nuevo repositorio a partir de la plantilla, obteniendo el siguiente resultado:</p>
+
+![Check](references/imagenes/ResultNewProject.png)
+
+<h2>7. Resumen de documentacion. </h2>
 
 <p>En esta sección hace una breve descripción del proyecto y se establecen los enlaces para navegar por los documentos necesarios. Ejemplo:</p>
 
