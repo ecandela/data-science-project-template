@@ -108,7 +108,22 @@ data-science-project-template
 
 2. Ir al script  [04Modeling.py](src/_04_Modeling/04Modeling.py)
 
-<h2>6. Resumen de documentacion. </h2>
+
+<h2>6. Uso de la plantilla <b><a target="_blank" href="https://github.com/ecandela/data-science-project-template">data-science-project-template</a></b>.</h2>
+
+<p>1. Para el uso de esta plantilla en algún proyecto nuevo, primero nos dirigimos al botón verde <b>“Use this template”</b>.</p>
+
+![Check](references/imagenes/UseThisTemplateButton.png)
+
+<p>2. Seguidamente llenamos los campos <b>Repository Name</b> y <b>Description</b> correspondientes al nombre del proyecto y su descripción. Puedes seleccionar si será público o privado y además si desea incluir todas las ramas del proyecto.</p>
+
+![Check](references/imagenes/FillingTemplate.png)
+
+<p>3. Finalmente presionar el botón <b>Create Repository From Template</b> para crear un nuevo repositorio a partir de la plantilla, obteniendo el siguiente resultado:</p>
+
+![Check](references/imagenes/ResultNewProject.png)
+
+<h2>7. Resumen de documentacion. </h2>
 
 <p>En esta sección hace una breve descripción del proyecto y se establecen los enlaces para navegar por los documentos necesarios. Ejemplo:</p>
 
