@@ -104,9 +104,9 @@ data-science-project-template
 
 <p>En esta sección se establecen las rutas para navegar por los scripts.</p>
 
-1. Ir al script [03DataPreparation.py](src/_03_Data_Preparation/03DataPreparation.py)
+1. Ir al script [03DataPreparation.py](src/_03_Data_Preparation/DataPreparation.py)
 
-2. Ir al script  [04Modeling.py](src/_04_Modeling/04Modeling.py)
+2. Ir al script  [04Modeling.py](src/_04_Modeling/Modeling.py)
 
 
 <h2>6. Uso de la plantilla <b><a target="_blank" href="https://github.com/ecandela/data-science-project-template">data-science-project-template</a></b>.</h2>
