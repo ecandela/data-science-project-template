@@ -1,1 +1,0 @@
-conda env update --name venvOsee --file environment.yml --prune
