@@ -8,8 +8,10 @@ dependencies:
   - pip
   - pip:
     - pip-tools
+    - ipynb==0.5.1
   - pandas=1.2.2
   - ipykernel
   - gdal=3.2.2
   - fiona=1.8.19
   - geopandas==0.9.0
+  - nbformat
