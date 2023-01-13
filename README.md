@@ -53,7 +53,13 @@ data-science-project-template
 
 <p>3. Clonar el proyecto desde el repositorio de GitHub y localizarlo en el folder de su preferencia.</p>
 
+<p><bNOTA:</b> El proyecto clonado contiene el archivo <b>environment.yml</b> el cual permite configurar el nombre del entorno virtual y la gestión de las dependencias/librerías. Por defecto, el nombre del entorno virtual es <b>venvOsee</b>. Sin embargo, se recomienda que se cambie a un nombre que haga referencia al proyecto que se pretende desarrollar.</p>
+
+![Check](references/imagenes/YmlFileStructure.png)
+
 <p>4. Ejecutar el archivo <b>00.create_env.bat</b> para crear entorno virtual del proyecto. en la pantalla se mostrará una imagen que indica que se está creando el entorno.</p>
+
+
 
 ![Creando env](references/imagenes/creando2.PNG)
 
