@@ -82,7 +82,7 @@ data-science-project-template
 
 <p><b>Nota 1:</b> Para ejecutar un script completo debemos dirigirnos a la carpeta donde se encuentra el scripts mediante los comandos "cd Nombre_de_carperta" y escribir en el terminal "python nombre_de_scripts", debemos incluir la extensión del archivo, en nuestro caso será ".py"</p>
 
-<p><b>Nota 2:</b> Para ejecutar una sección del script debemos seleccionar la parte del código que deseamos ejecutar, luego presionar <i>click</i> derecho y seleccionar la opcion <b>Run Selection/Line in Python Terminal</b> en las opciones que se mostrarán.</p>
+<p><b>Nota 2:</b> Para ejecutar una sección del script debemos seleccionar la parte del código que deseamos ejecutar, luego presionar <i>click</i> derecho y seleccionar la opcion <b>Run Selection/Line in Python Terminal</b> en las opciones que se mostrarán. Otra forma más rápida es seleccionar el código que se desea ejecutar y presionar las teclas <b>Shift + Enter</b></p>
 
 <p><b>Nota 3:</b> En la parte derecha inferior de nuestro IDE, debemos seleccionar nuestro entorno virtual, de este modo el IDE inicializará un terminal con nuestro entorno virtual por defecto.</p>
 
