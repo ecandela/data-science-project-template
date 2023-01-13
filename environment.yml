@@ -10,6 +10,7 @@ dependencies:
     - pip-tools
     - ipynb==0.5.1
   - pandas=1.2.2
+  - numpy==1.19.2
   - ipykernel
   - gdal=3.2.2
   - fiona=1.8.19
