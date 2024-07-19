@@ -9,6 +9,8 @@ dependencies:
   - pip:
     - pip-tools
     - ipynb==0.5.1
+    - mysql-connector-python
+    - SQLAlchemy==1.4.46
   - pandas=1.2.2
   - numpy==1.19.2
   - ipykernel
